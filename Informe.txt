@@ -1,0 +1,60 @@
+Informe de Actividad - Subida de Archivo a GitHub
+
+Descripción del Archivo Creado
+Se creó un archivo de texto llamado hola_mundo.txt que contiene el mensaje "Hola Mundo". Este archivo fue creado y gestionado dentro de un nuevo repositorio Git en la carpeta POO-Espe.
+Pasos Realizados
+A continuación, se detallan los pasos que seguí para crear el repositorio local, agregar el archivo y subirlo a GitHub:
+1. Creación del Directorio
+Primero, se creó un nuevo directorio para el proyecto:
+bash
+C:\Users\Makurbo\Documents>mkdir POO-Espe
+
+2. Navegación al Directorio
+Se accedió al directorio recién creado:
+bash
+C:\Users\Makurbo\Documents>cd POO-Espe
+
+3. Inicialización del Repositorio Git
+Se inicializó un nuevo repositorio Git en el directorio:
+bash
+C:\Users\Makurbo\Documents\POO-Espe>git init
+
+4. Configuración de Git
+Se configuraron los detalles del usuario (nombre y correo electrónico):
+bash
+C:\Users\Makurbo\Documents\POO-Espe>git config --global user.user "kepugachi"
+C:\Users\Makurbo\Documents\POO-Espe>git config --global user.username "kepugachi"
+C:\Users\Makurbo\Documents\POO-Espe>git config --global user.email "kepugachi@espe.edu.ec"
+
+5. Verificación del Estado del Repositorio
+Se verificó el estado del repositorio para confirmar que no había archivos rastreados:
+bash
+C:\Users\Makurbo\Documents\POO-Espe>git status
+
+6. Agregar el Archivo al Repositorio
+Se agregó el archivo hola_mundo.txt al área de preparación:
+bash
+C:\Users\Makurbo\Documents\POO-Espe>git add .
+
+7. Verificación del Estado Después de Agregar
+Se volvió a verificar el estado para confirmar que el archivo estaba listo para ser confirmado:
+bash
+C:\Users\Makurbo\Documents\POO-Espe>git status
+
+8. Conexión con el Repositorio Remoto en GitHub
+Se conectó el repositorio local con el remoto en GitHub:
+bash
+C:\Users\Makurbo\Documents\POO-Espe>git remote add origin https://github.com/kepugachi/POO-Espe.git
+
+9. Confirmación de Cambios
+Se realizó un commit con un mensaje descriptivo:
+bash
+C:\Users\Makurbo\Documents\POO-Espe>git commit -m "primer commit"
+
+10. Subida de Cambios a GitHub
+Finalmente, se subieron los cambios al repositorio remoto:
+bash
+C:\Users\Makurbo\Documents\POO-Espe>git push origin master
+
+Enlace al Repositorio de GitHub
+El archivo hola_mundo.txt se encuentra disponible en el siguiente enlace a mi repositorio de GitHub: https://github.com/kepugachi/POO-Espe
